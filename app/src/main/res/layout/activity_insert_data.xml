@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" tools:context = ".InsertData">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Input Data Startup"
+        android:textSize="28sp" />
+
+    <TextView
+        android:text = "Nama Startup"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/label_nama_startup"
+        android:textSize = "14sp"
+        android:layout_below="@+id/textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_below="@+id/label_nama_startup"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Isi Disini"
+        android:textColorHint="@color/colorGray"
+        android:id = "@+id/nama_startup"
+        android:layout_centerHorizontal = "true" />
+
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/main_btn"
+        android:text="Tambah"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

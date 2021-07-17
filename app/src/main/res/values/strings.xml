@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobprob</string>
+    <string name="welcome_title">Selamat Datang</string>
+    <string name="get_started">Get Started</string>
+    <string name="add_data">Tambah Data</string>
+    <string name="name">Nama</string>
+    <string name="action">Aksi</string>
+</resources>
